@@ -10,7 +10,7 @@ actix-ws = "0.2"
 actix-web-actors = "4.0.0"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "postgres", "uuid", "chrono"] }
+sqlx = { version = "0.8", features = ["runtime-tokio-rustls", "postgres", "uuid", "chrono"] }
 dotenv = "0.15"
 futures-util = "0.3"
 jsonwebtoken = "8"
